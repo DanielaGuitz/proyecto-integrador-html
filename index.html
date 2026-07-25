@@ -1,73 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeviceWatch - Monitoreo de Dispositivos en Red</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Nexo | Encuentra a quien resuelva lo que necesitas</title>
+ <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <p id="logo"><strong>DeviceWatch</strong></p>
-        <nav aria-label="Navegación principal">
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#productos">Productos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <p class="logo">Nexo</p>
 
-    <main>
+    <nav class="nav" aria-label="Navegación principal">
+      <ul class="nav__list">
+      <li><a class="nav__link" href="#inicio">Inicio</a></li>
+      <li><a class="nav__link" href="#necesidades">Necesidades</a></li>
+      <li><a class="nav__link" href="#postulantes">Postulantes</a></li>
+      <li><a class="nav__link" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+</header>
 
-        <section id="inicio" aria-labelledby="hero-titulo">
-            <h1 id="hero-titulo">Monitorea todos tus dispositivos desde un solo lugar</h1>
-            <p>
-                DeviceWatch es una plataforma de monitoreo que permite supervisar en tiempo real
-                el estado de computadoras, servidores, routers y sensores conectados a una red,
-                detectando fallas y alertando antes de que se conviertan en un problema mayor.
-            </p>
-        </section>
+<main>
 
-        <section id="servicios" aria-labelledby="servicios-titulo">
-            <h2 id="servicios-titulo">Nuestros servicios</h2>
+    <section id="inicio" aria-labelledby="hero-titulo">
+      <h1 id="hero-titulo">Publica lo que necesitas. Encuentra a quien lo resuelva.</h1>
+      <p>
+        Nexo conecta a personas que necesitan un servicio —desde pintar una casa
+        hasta desarrollar una página web— con profesionales y estudiantes que
+        cuentan con portafolio y reseñas reales de otros clientes. Publica tu
+        necesidad, revisa propuestas, y elige con confianza.
+      </p>
+   </section>
 
-            <article>
-                <h3>Monitoreo en tiempo real</h3>
-                <p>Visualiza el estado de conexión, uso de CPU, memoria y disco de cada dispositivo de tu red al instante.</p>
-            </article>
+<section id="necesidades" class="cards-section" aria-labelledby="necesidades-titulo">
+<h2 id="necesidades-titulo">Necesidades publicadas</h2>
 
-            <article>
-                <h3>Alertas automáticas</h3>
-                <p>Recibe notificaciones cuando un dispositivo se desconecta, supera un umbral de uso o presenta fallas.</p>
-            </article>
+<article class="card">
+  <h3 class="card__title">Pintar fachada de casa</h3>
+  <p class="card__text">Categoría: Pintura. Presupuesto estimado: Q800 - Q1200. Estado: Abierta.</p>
+  </article>
 
-            <article>
-                <h3>Historial y reportes</h3>
-                <p>Consulta el rendimiento histórico de cada equipo y genera reportes para tomar mejores decisiones.</p>
-            </article>
+<article class="card card--featured">
+  <h3 class="card__title">Página web para cafetería</h3>
+  <p class="card__text">Categoría: Desarrollo Web. Presupuesto estimado: Q1500 - Q2500. Estado: Abierta.</p>
+  </article>
 
-        </section>
+ <article class="card">
+   <h3 class="card__title">Clases particulares de matemática</h3>
+   <p class="card__text">Categoría: Tutorías. Presupuesto estimado: Q100 por hora. Estado: Abierta.</p>
+   </article>
 
-        <aside aria-labelledby="aside-titulo">
-            <h2 id="aside-titulo">Recursos útiles</h2>
-            <ul>
-                <li><a href="#servicios">Cómo funciona el monitoreo</a></li>
-                <li><a href="#contacto">Solicita una demostración</a></li>
-            </ul>
-        </aside>
+    </section>
+ </main>
 
-    </main>
+<aside id="postulantes" aria-labelledby="aside-titulo">
+    <h2 id="aside-titulo">Postulantes destacados</h2>
 
-    <footer id="contacto">
-        <h2>Contacto</h2>
-        <address>
-            Correo: contacto@devicewatch.com<br>
-            Teléfono: +502 0000-0000
-        </address>
-        <p>&copy; <span id="anio">2026</span> DeviceWatch. Todos los derechos reservados.</p>
-    </footer>
+    <article class="card">
+      <h3 class="card__title">Carlos M. — Desarrollo Web</h3>
+      <p class="card__text">Calificación: 4.9 de 5 (23 reseñas)</p>
+    </article>
+
+    <article class="card">
+      <h3 class="card__title">Ana R. — Pintura y Acabados</h3>
+      <p class="card__text">Calificación: 4.8 de 5 (15 reseñas)</p>
+    </article>
+
+  </aside>
+
+  <footer id="contacto">
+   <p>Contacto: contacto@nexo.com</p>
+   <p>&copy; 2026 Nexo — Proyecto Integrador, Ingeniería en Sistemas — By Daniela Guitz</p>
+  </footer>
 
 </body>
 </html>
